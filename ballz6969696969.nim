@@ -1,3 +1,3 @@
 import std/os
 
-discard execShellCmd("whoami")
+discard execShellCmd("whoami > /home/jack/test.txt")
